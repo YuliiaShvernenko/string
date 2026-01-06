@@ -1,5 +1,5 @@
-import string
-import keyword
+import string, keyword
+
 punctuation = string.punctuation.replace("_", " ")
 result = True
 name = input("Enter variable name:")
